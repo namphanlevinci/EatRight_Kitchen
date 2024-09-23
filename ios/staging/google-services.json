@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "586778695384",
+    "project_id": "eatright-staging-ed468",
+    "storage_bucket": "eatright-staging-ed468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586778695384:android:6c8719917cd09afd4769ad",
+        "android_client_info": {
+          "package_name": "com.aurora.eatRightPrinter.kitchen.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1x78pRzlD7BM44U_zdxxAi2fOYCZpdmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586778695384:android:78e752a34da25f1a4769ad",
+        "android_client_info": {
+          "package_name": "com.eatrightprinter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1x78pRzlD7BM44U_zdxxAi2fOYCZpdmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

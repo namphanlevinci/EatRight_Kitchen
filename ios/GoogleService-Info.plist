@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB9KPs8ZQEFezgNM_K_BOcJ2AYeWjzuQ5s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>586778695384</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.aurora.eatRightPrinter.kitchen</string>
+	<key>PROJECT_ID</key>
+	<string>eatright-staging-ed468</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eatright-staging-ed468.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:586778695384:ios:5f71c06b25d147dd4769ad</string>
+</dict>
+</plist>
