@@ -26,6 +26,25 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:586778695384:android:fbeaf7b3124353e44769ad",
+        "android_client_info": {
+          "package_name": "com.eatrightkitchen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1x78pRzlD7BM44U_zdxxAi2fOYCZpdmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:586778695384:android:78e752a34da25f1a4769ad",
         "android_client_info": {
           "package_name": "com.eatrightprinter"

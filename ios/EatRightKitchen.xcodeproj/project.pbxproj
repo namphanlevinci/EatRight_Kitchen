@@ -16,8 +16,7 @@
 		2230CCF02CA1664900889966 /* Pods_EatRightKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEAF860D9F457D125B00A93 /* Pods_EatRightKitchen.framework */; };
 		2230CCF22CA1664900889966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		2230CCF32CA1664900889966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2230CCF42CA1664900889966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225163082CA12FB400B4E4D3 /* GoogleService-Info.plist */; };
-		225163092CA12FB400B4E4D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225163082CA12FB400B4E4D3 /* GoogleService-Info.plist */; };
+		2264AC4E2CA667BC00F020F6 /* GoogleService-Info 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2264AC4D2CA667BC00F020F6 /* GoogleService-Info 2.plist */; };
 		4EC43745D5A2CF70E0700F1B /* Pods_EatRightKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEAF860D9F457D125B00A93 /* Pods_EatRightKitchen.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8BA93C1C29048DC354726440 /* Pods_EatRightKitchen_EatRightKitchenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895BDC7F675CFF358E65ED25 /* Pods_EatRightKitchen_EatRightKitchenTests.framework */; };
@@ -46,7 +45,7 @@
 		2230CCE82CA1542A00889966 /* EatRightKitchen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = EatRightKitchen.entitlements; path = EatRightKitchen/EatRightKitchen.entitlements; sourceTree = "<group>"; };
 		2230CCFC2CA1664900889966 /* kitchen staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kitchen staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2230CCFD2CA1664A00889966 /* EatRightKitchen copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EatRightKitchen copy-Info.plist"; path = "/Users/macos/Documents/FNB/EatRightKitchen/ios/EatRightKitchen copy-Info.plist"; sourceTree = "<absolute>"; };
-		225163082CA12FB400B4E4D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2264AC4D2CA667BC00F020F6 /* GoogleService-Info 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info 2.plist"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-EatRightKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatRightKitchen.debug.xcconfig"; path = "Target Support Files/Pods-EatRightKitchen/Pods-EatRightKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-EatRightKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatRightKitchen.release.xcconfig"; path = "Target Support Files/Pods-EatRightKitchen/Pods-EatRightKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-EatRightKitchen-EatRightKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatRightKitchen-EatRightKitchenTests.debug.xcconfig"; path = "Target Support Files/Pods-EatRightKitchen-EatRightKitchenTests/Pods-EatRightKitchen-EatRightKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,8 +56,18 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2264AC512CA6681D00F020F6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info 3.plist",
+			);
+			target = 13B07F861A680F5B00A75B9A /* EatRightKitchen */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2230CCFE2CA1665D00889966 /* staging */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = staging; sourceTree = "<group>"; };
+		2230CCFE2CA1665D00889966 /* staging */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (2264AC512CA6681D00F020F6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = staging; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +122,7 @@
 				2230CCE82CA1542A00889966 /* EatRightKitchen.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
-				225163082CA12FB400B4E4D3 /* GoogleService-Info.plist */,
+				2264AC4D2CA667BC00F020F6 /* GoogleService-Info 2.plist */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -302,8 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				2264AC4E2CA667BC00F020F6 /* GoogleService-Info 2.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				225163092CA12FB400B4E4D3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +322,6 @@
 			files = (
 				2230CCF22CA1664900889966 /* LaunchScreen.storyboard in Resources */,
 				2230CCF32CA1664900889966 /* Images.xcassets in Resources */,
-				2230CCF42CA1664900889966 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,7 +692,7 @@
 				CODE_SIGN_ENTITLEMENTS = EatRightKitchen/EatRightKitchen.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 69WQLJ9K8N;
 				ENABLE_BITCODE = NO;
@@ -700,7 +708,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.eatRightPrinter.kitchen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levinci.eatright.kitchen;
 				PRODUCT_NAME = EatRightKitchen;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "EatRight Kitchen";
@@ -724,7 +732,7 @@
 				CODE_SIGN_ENTITLEMENTS = EatRightKitchen/EatRightKitchen.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 69WQLJ9K8N;
 				INFOPLIST_FILE = EatRightKitchen/Info.plist;
@@ -739,7 +747,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.eatRightPrinter.kitchen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levinci.eatright.kitchen;
 				PRODUCT_NAME = EatRightKitchen;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "EatRight Kitchen";
@@ -762,7 +770,7 @@
 				CODE_SIGN_ENTITLEMENTS = EatRightKitchen/EatRightKitchen.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 69WQLJ9K8N;
 				ENABLE_BITCODE = NO;
@@ -772,13 +780,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.eatRightPrinter.kitchen.staging;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenvinci.eatRight.kitchen.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "EatRight Kitchen Staging";
@@ -802,7 +810,7 @@
 				CODE_SIGN_ENTITLEMENTS = EatRightKitchen/EatRightKitchen.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 69WQLJ9K8N;
 				ENABLE_BITCODE = NO;
@@ -812,13 +820,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aurora.eatRightPrinter.kitchen.staging;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenvinci.eatRight.kitchen.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "EatRight Kitchen Staging";
